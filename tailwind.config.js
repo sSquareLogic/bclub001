@@ -14,6 +14,25 @@ module.exports = {
       backgroundImage: {
         GRADIENT: "linear-gradient(to right,#FEBF33 100%, #FFE8C6 100%)",
         BUTTON_GRADIENT: "linear-gradient(129deg, #FFE8C6 0%, #FFD577 100%)",
+        HERO_TOP:
+          "radial-gradient(67.50% 165.33% at 50.00% -65.33%, #FEBF33 0%, rgba(0, 0, 0, 0.00) 80.73%);",
+      },
+      width: {
+        LOGO: "200px",
+      },
+      height: {
+        LOGO: "200px",
+      },
+      gridTemplateColumns: {
+        TWO: "repeat(2, 1fr)",
+      },
+      fontSize: {
+        TITLE_SM: "36px",
+        TITLE: "40px",
+        TITLE_LG: "64px",
+        TEXT_LG: "32px",
+        TEXT: "20px",
+        TEXT_SM: "16px",
       },
     },
   },
