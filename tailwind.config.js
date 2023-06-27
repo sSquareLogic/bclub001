@@ -12,7 +12,7 @@ module.exports = {
         TEXT: "#131313",
       },
       backgroundImage: {
-        GRADIENT: "linear-gradient(to right,#FEBF33 100%, #FFE8C6 100%)",
+        GRADIENT: "linear-gradient(to right, #FEBF33 0%, #FFE8C6 30%)",
         BUTTON_GRADIENT: "linear-gradient(129deg, #FFE8C6 0%, #FFD577 100%)",
         HERO_TOP:
           "radial-gradient(67.50% 165.33% at 50.00% -65.33%, #FEBF33 0%, rgba(0, 0, 0, 0.00) 80.73%);",
