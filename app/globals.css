@@ -1,10 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://use.typekit.net/fjb7ywr.css");
 
 * {
   scroll-behavior: smooth;
   color: #131313;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  letter-spacing: -1px;
 }
 
 .container {

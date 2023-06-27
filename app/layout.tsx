@@ -1,14 +1,4 @@
 import "./globals.css";
-import localFont from "next/font/local";
-
-const neueBold = localFont({
-  src: "../public/assets/fonts/NeueHaasDisplayBold.ttf",
-  weight: "800",
-});
-const neueNormal = localFont({
-  src: "../public/assets/fonts/NeueHaasDisplayRoman.ttf",
-  weight: "400",
-});
 
 export const metadata = {
   title: "FORCE ACADEMY",
@@ -22,11 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        className={`${neueNormal.className} ${neueBold.className} bg-black`}
-      >
-        {children}
-      </body>
+      <body className="bg-black">{children}</body>
     </html>
   );
 }
