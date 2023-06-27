@@ -4,7 +4,7 @@ const Logo = () => {
   return (
     <div className="logo w-LOGO h-LOGO absolute top-0 left-[50%] -translate-x-[50%]">
       <Image
-        src={"/assets/images/logo.svg"}
+        src={"/assets/images/logo.png"}
         alt="logo"
         unoptimized
         unselectable="off"
