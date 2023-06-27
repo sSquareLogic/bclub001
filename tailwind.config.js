@@ -16,6 +16,7 @@ module.exports = {
         BUTTON_GRADIENT: "linear-gradient(129deg, #FFE8C6 0%, #FFD577 100%)",
         HERO_TOP:
           "radial-gradient(67.50% 165.33% at 50.00% -65.33%, #FEBF33 0%, rgba(0, 0, 0, 0.00) 80.73%);",
+        SKILLS: "url(/assets/images/skills-bg.jpg)",
       },
       width: {
         LOGO: "200px",
