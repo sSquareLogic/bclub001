@@ -26,6 +26,7 @@ module.exports = {
       },
       gridTemplateColumns: {
         TWO: "repeat(2, 1fr)",
+        THREE: "repeat(3, 1fr)",
       },
       fontSize: {
         TITLE_SM: "36px",
