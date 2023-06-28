@@ -1,4 +1,4 @@
-import { ISkillPoint } from "@/types/skills.type";
+import { ISkillPoint } from "@/types/skills.types";
 import Image from "next/image";
 
 const SkillListItem = ({ text, highlightedText = "" }: ISkillPoint) => {
@@ -10,8 +10,6 @@ const SkillListItem = ({ text, highlightedText = "" }: ISkillPoint) => {
         height={10}
         width={10}
         className="object-contain w-[10] h-[10]"
-        unoptimized
-        unselectable="off"
       />
       <p className="text-TEXT">
         {text} <span className="uppercase font-bold">{highlightedText}</span>

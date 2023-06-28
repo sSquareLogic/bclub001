@@ -9,8 +9,6 @@ const AboutLogo = () => {
         alt="about logo"
         height={992}
         width={600}
-        unoptimized
-        unselectable="off"
         className="w-full h-[992px] object-contain"
       />
     </div>

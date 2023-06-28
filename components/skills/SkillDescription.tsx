@@ -1,4 +1,4 @@
-import { ISkill } from "@/types/skills.type";
+import { ISkill } from "@/types/skills.types";
 import SkillList from "./SkillList";
 
 interface IProps {

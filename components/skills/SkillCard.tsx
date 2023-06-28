@@ -1,4 +1,4 @@
-import { ISkill } from "@/types/skills.type";
+import { ISkill } from "@/types/skills.types";
 import SkillImage from "./SkillImage";
 import SkillDescription from "./SkillDescription";
 

@@ -1,4 +1,4 @@
-import { ISkills } from "@/types/skills.type";
+import { ISkills } from "@/types/skills.types";
 
 const skills: ISkills = {
   title: "¿qué  voy  a aprender?",

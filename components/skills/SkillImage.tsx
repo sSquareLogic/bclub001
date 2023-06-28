@@ -1,4 +1,4 @@
-import { ISkill } from "@/types/skills.type";
+import { ISkill } from "@/types/skills.types";
 import Image from "next/image";
 
 interface IProps {
@@ -13,8 +13,7 @@ const SkillImage = ({ image }: IProps) => {
         alt="card image"
         width={500}
         height={500}
-        unoptimized
-        unselectable="off"
+        priority
         className="w-full h-[500px] object-contain"
       />
     </div>

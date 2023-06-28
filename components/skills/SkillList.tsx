@@ -1,4 +1,4 @@
-import { ISkill } from "@/types/skills.type";
+import { ISkill } from "@/types/skills.types";
 import SkillListItem from "./SkillListItem";
 import { v4 } from "uuid";
 
