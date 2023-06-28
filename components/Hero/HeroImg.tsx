@@ -6,6 +6,7 @@ const HeroImg = () => {
       <Image
         src={hero.img}
         priority
+        loading="eager"
         alt="hero-img"
         width={600}
         height={600}

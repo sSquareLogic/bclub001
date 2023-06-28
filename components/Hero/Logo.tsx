@@ -7,6 +7,7 @@ const Logo = () => {
         src={"/assets/images/logo.png"}
         alt="logo"
         priority
+        loading="eager"
         width={200}
         height={200}
         className="object-contain w-LOGO h-LOGO"
