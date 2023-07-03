@@ -3,6 +3,7 @@ import About from "@/components/about/About";
 import Skills from "@/components/skills/Skills";
 import Professors from "@/components/professors/Professors";
 import Kit from "@/components/kit/Kit";
+import Results from "@/components/results/Results";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Skills />
       <Professors />
       <Kit />
+      <Results />
     </main>
   );
 };

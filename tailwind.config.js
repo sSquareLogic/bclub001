@@ -17,6 +17,7 @@ module.exports = {
         HERO_TOP:
           "radial-gradient(67.50% 165.33% at 50.00% -65.33%, #FEBF33 0%, rgba(0, 0, 0, 0.00) 80.73%);",
         SKILLS: "url(/assets/images/skills-bg.jpg)",
+        RESULTS: "url(/assets/images/results-bg.jpg)",
       },
       width: {
         LOGO: "200px",

@@ -6,7 +6,7 @@ const Kit = () => {
   return (
     <section className="kit min-h-[700px] py-6">
       <Container
-        className="grid grid-cols-TWO content-center gap-9"
+        className="grid grid-cols-TWO content-center gap-9 pb-20"
         height="700px"
       >
         <KitContent />
