@@ -5,6 +5,7 @@ import Professors from "@/components/professors/Professors";
 import Kit from "@/components/kit/Kit";
 import Results from "@/components/results/Results";
 import Enrol from "@/components/enrol/Enrol";
+import Faq from "@/components/faq/Faq";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Kit />
       <Results />
       <Enrol />
+      <Faq />
     </main>
   );
 };

@@ -23,6 +23,13 @@
   width: 100%;
 }
 
+.container-supersmall {
+  margin: 0 auto;
+  padding: 0 30px;
+  max-width: 975px;
+  width: 100%;
+}
+
 .gradient {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
