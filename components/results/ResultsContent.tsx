@@ -1,5 +1,6 @@
 import results from "@/settings/results";
 import Image from "next/image";
+import { v4 } from "uuid";
 
 const ResultsContent = () => {
   return (
@@ -19,6 +20,7 @@ const ResultsContent = () => {
           <p
             className="text-TEXT text-TITLE_SM text-center"
             dangerouslySetInnerHTML={{ __html: text }}
+            key={v4()}
           ></p>
         ))}
       </div>

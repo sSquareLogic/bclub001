@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CSSProperties, HTMLAttributes } from "react";
 
 interface IProps {
   onClick?: () => null;
@@ -9,9 +10,17 @@ interface IProps {
     href: string;
   };
   text: string;
+  styling?: CSSProperties;
 }
 
-const Button = ({ onClick, text, link, size, align = "center" }: IProps) => {
+const Button = ({
+  onClick,
+  text,
+  link,
+  size,
+  align = "center",
+  styling = {},
+}: IProps) => {
   return link ? (
     link.external ? (
       <a
@@ -19,7 +28,9 @@ const Button = ({ onClick, text, link, size, align = "center" }: IProps) => {
         onClick={onClick}
         className="p-[10px] bg-BUTTON_GRADIENT uppercase font-bold text-[24px] max-w-[350px] text-center flex justify-center"
         style={
-          size ? { fontSize: size, textAlign: align } : { textAlign: align }
+          size
+            ? { ...styling, fontSize: size, textAlign: align }
+            : { ...styling, textAlign: align }
         }
       >
         {text}
@@ -30,7 +41,9 @@ const Button = ({ onClick, text, link, size, align = "center" }: IProps) => {
         onClick={onClick}
         className="p-[10px] bg-BUTTON_GRADIENT uppercase font-bold text-[24px] max-w-[350px] text-center flex justify-center"
         style={
-          size ? { fontSize: size, textAlign: align } : { textAlign: align }
+          size
+            ? { ...styling, fontSize: size, textAlign: align }
+            : { ...styling, textAlign: align }
         }
       >
         {text}
@@ -41,7 +54,11 @@ const Button = ({ onClick, text, link, size, align = "center" }: IProps) => {
       type="button"
       onClick={onClick}
       className="p-[10px] bg-BUTTON_GRADIENT uppercase font-bold text-[24px] max-w-[350px] text-center flex justify-center"
-      style={size ? { fontSize: size, textAlign: align } : { textAlign: align }}
+      style={
+        size
+          ? { ...styling, fontSize: size, textAlign: align }
+          : { ...styling, textAlign: align }
+      }
     >
       {text}
     </button>

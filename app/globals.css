@@ -27,3 +27,10 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.text-bg {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #febf33 0%, #ffe8c6 30%);
+  font-weight: 600;
+}
