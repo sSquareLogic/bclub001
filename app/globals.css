@@ -9,6 +9,10 @@
   font-family: Neue Haas Grotesk Display Pro, sans-serif;
 }
 
+.lh {
+  line-height: 36px;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 30px;
@@ -26,7 +30,7 @@
 .container-supersmall {
   margin: 0 auto;
   padding: 0 30px;
-  max-width: 975px;
+  max-width: 1000px;
   width: 100%;
 }
 

@@ -11,7 +11,7 @@ const FaqItem = ({ title, text }: IProps) => {
       <h6 className="text-GOLD text-TEXT_LG font-bold pr-10">{title}</h6>
       <p
         dangerouslySetInnerHTML={{ __html: text }}
-        className="text-TEXT_LG text-white"
+        className="text-TEXT_LG text-white lh"
       ></p>
       <Image
         src={"/assets/icons/plus.svg"}
