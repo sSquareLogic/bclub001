@@ -45,3 +45,11 @@
   background-image: linear-gradient(to right, #febf33 0%, #ffe8c6 30%);
   font-weight: 600;
 }
+
+@media screen and (max-width: 600px) {
+  .container,
+  .container-small,
+  .container-supersmall {
+    padding: 0 15px;
+  }
+}
