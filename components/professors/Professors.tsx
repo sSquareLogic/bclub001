@@ -8,7 +8,11 @@ const Professors = () => {
   return (
     <section className="professors bg-black py-20">
       <Container isSmall className="flex flex-col gap-20">
-        <GradientTitle text="conoce a tus profesores" size="64px" />
+        <GradientTitle
+          text="conoce a tus profesores"
+          size="64px"
+          align="center"
+        />
         <div className="grid grid-cols-THREE gap-10">
           {professors.map((professor) => (
             <ProfessorsCard

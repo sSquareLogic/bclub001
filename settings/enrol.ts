@@ -5,7 +5,7 @@ export default {
     'Queremos que los alumnos que se inscriban <span class="text-bg">disfruten de la mayor atención</span> de nuestros profesores por lo que los grupos serán reducidos.',
     'La formación es <span class="text-bg">intensiva</span> con una duracion de <span class="text-bg">6 meses</span> con turnos en la mañana.',
   ],
-  logo: "/assets/images/logo.png",
+  logo: "/assets/images/logo.svg",
   subscribe: {
     name: "reserva tu plaza",
     price: "495€ Precio de inscripción",
