@@ -10,7 +10,7 @@ const HeroImg = () => {
         alt="hero-img"
         width={600}
         height={600}
-        className="w-[600px] h-[600px] object-contain"
+        className="w-full h-[600px] object-contain"
       />
     </div>
   );
