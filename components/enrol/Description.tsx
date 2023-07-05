@@ -1,5 +1,5 @@
 "use client";
-import { useMediaQuery } from "usehooks-ts";
+import useMediaQuery from "@mui/material/useMediaQuery";
 import enrol from "@/settings/enrol";
 import GradientTitle from "../GradientTitle";
 import { v4 } from "uuid";

@@ -4,7 +4,7 @@ import HeroBg from "./HeroBg";
 import HeroImg from "./HeroImg";
 import HeroText from "./HeroText";
 import Logo from "./Logo";
-import { useMediaQuery } from "usehooks-ts";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 const Hero = () => {
   const lg = useMediaQuery("(max-width: 1024px)");

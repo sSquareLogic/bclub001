@@ -1,5 +1,5 @@
 "use client";
-import { useMediaQuery } from "usehooks-ts";
+import useMediaQuery from "@mui/material/useMediaQuery";
 import Container from "../Container";
 import AboutContent from "./AboutContent";
 import AboutLogo from "./AboutLogo";

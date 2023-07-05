@@ -1,5 +1,5 @@
 "use client";
-import { useMediaQuery } from "usehooks-ts";
+import useMediaQuery from "@mui/material/useMediaQuery";
 import enrol from "@/settings/enrol";
 import Image from "next/image";
 import TickListItem from "./TickListItem";

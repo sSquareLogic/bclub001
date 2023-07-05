@@ -4,7 +4,7 @@ import Container from "../Container";
 import GradientTitle from "../GradientTitle";
 import ProfessorsCard from "./ProfessorsCard";
 import { v4 } from "uuid";
-import { useMediaQuery } from "usehooks-ts";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 const Professors = () => {
   const breakPoints = {

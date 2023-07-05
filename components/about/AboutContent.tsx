@@ -1,5 +1,5 @@
 "use client";
-import { useMediaQuery } from "usehooks-ts";
+import useMediaQuery from "@mui/material/useMediaQuery";
 import about from "@/settings/about";
 import GradientTitle from "../GradientTitle";
 import Button from "../Button";
