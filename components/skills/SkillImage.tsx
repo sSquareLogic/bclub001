@@ -14,7 +14,7 @@ const SkillImage = ({ image }: IProps) => {
         width={500}
         height={500}
         priority
-        className="w-full h-[500px] object-contain"
+        className="w-full h-[500px] object-contain transition-all max-[900px]:h-[400px] max-[900px]:w-fit max-md:h-[250px] max-sm:h-[200px] max-[500px]:h-[150px]"
       />
     </div>
   );

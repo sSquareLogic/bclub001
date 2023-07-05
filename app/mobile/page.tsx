@@ -1,9 +1,9 @@
-import Results from "@/components/results/Results";
+import Skills from "@/components/skills/Skills";
 
 const Mobile = () => {
   return (
     <div>
-      <Results />
+      <Skills />
     </div>
   );
 };

@@ -11,7 +11,7 @@ const SkillListItem = ({ text, highlightedText = "" }: ISkillPoint) => {
         width={10}
         className="object-contain w-[10] h-[10]"
       />
-      <p className="text-TEXT">
+      <p className="text-TEXT transition-all max-md:text-[18px] max-md:leading-[21px] max-[400px]:text-[16px]">
         {text} <span className="uppercase font-bold">{highlightedText}</span>
       </p>
     </div>
