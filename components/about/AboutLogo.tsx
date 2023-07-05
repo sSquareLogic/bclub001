@@ -9,7 +9,7 @@ const AboutLogo = () => {
         alt="about logo"
         height={992}
         width={600}
-        className="w-full h-[992px] object-contain"
+        className="w-full h-[992px] object-contain transition-all max-[900px]:hidden"
       />
     </div>
   );
