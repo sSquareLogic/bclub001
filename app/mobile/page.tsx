@@ -1,9 +1,9 @@
-import Faq from "@/components/faq/Faq";
+import Kit from "@/components/kit/Kit";
 
 const Mobile = () => {
   return (
     <div>
-      <Faq />
+      <Kit />
     </div>
   );
 };

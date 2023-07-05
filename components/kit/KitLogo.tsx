@@ -9,7 +9,7 @@ const KitLogo = () => {
         alt="kit logo"
         height={700}
         width={720}
-        className="w-full h-[700px] object-contain"
+        className="w-full h-[700px] object-contain transition-all max-[900px]:h-auto"
       />
     </div>
   );
