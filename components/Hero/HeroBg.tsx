@@ -4,7 +4,7 @@ const HeroBg = () => {
       <div
         className="relative -z-20 h-[800px] w-full"
         style={{
-          background: "url(/assets/images/hero-bg.png)",
+          background: "url(/assets/images/hero-bg.png) center",
         }}
       ></div>
       <div
