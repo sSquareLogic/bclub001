@@ -15,10 +15,10 @@ const ResultsContent = () => {
           className="w-[160px] h-10 object-contain"
         />
       </div>
-      <div className="flex flex-col gap-10 px-8">
+      <div className="flex flex-col gap-10 px-8 transition-all max-[500px]:px-0">
         {results.text.map((text) => (
           <p
-            className="text-TEXT text-TITLE_SM text-center"
+            className="text-TEXT text-TITLE_SM text-center leading-[44px] transition-all max-xl:text-[33px] max-lg:text-[30px] max-md:text-[27px] max-sm:text-[24px] max-[400px]:text-[20px] max-xl:leading-[40px] max-lg:leading-[36px] max-md:leading-[32px] max-sm:leading-[28px] max-[400px]:leading-[24px]"
             dangerouslySetInnerHTML={{ __html: text }}
             key={v4()}
           ></p>

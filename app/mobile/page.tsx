@@ -1,9 +1,9 @@
-import Kit from "@/components/kit/Kit";
+import Results from "@/components/results/Results";
 
 const Mobile = () => {
   return (
     <div>
-      <Kit />
+      <Results />
     </div>
   );
 };

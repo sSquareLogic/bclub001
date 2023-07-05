@@ -10,6 +10,10 @@
   letter-spacing: -1px;
 }
 
+strong {
+  font-size: unset !important;
+}
+
 .lh {
   line-height: 36px;
 }
