@@ -1,6 +1,7 @@
 import about from "@/settings/about";
 import GradientTitle from "../GradientTitle";
 import Button from "../Button";
+import { v4 } from "uuid";
 
 const AboutContent = () => {
   return (
@@ -11,6 +12,7 @@ const AboutContent = () => {
           <p
             className="text-white"
             dangerouslySetInnerHTML={{ __html: item }}
+            key={v4()}
           ></p>
         ))}
       </div>

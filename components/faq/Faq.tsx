@@ -1,6 +1,7 @@
 import faq from "@/settings/faq";
 import Container from "../Container";
 import FaqItem from "./FaqItem";
+import { v4 } from "uuid";
 
 const Faq = () => {
   return (
@@ -14,7 +15,7 @@ const Faq = () => {
         </h2>
         <div className="flex flex-col gap-5">
           {faq.list.map((item) => (
-            <FaqItem text={item.text} title={item.title} />
+            <FaqItem text={item.text} title={item.title} key={v4()} />
           ))}
         </div>
       </Container>
