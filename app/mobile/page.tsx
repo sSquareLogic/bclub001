@@ -1,9 +1,9 @@
-import About from "@/components/about/About";
+import Enrol from "@/components/enrol/Enrol";
 
 const Mobile = () => {
   return (
     <div>
-      <About />
+      <Enrol />
     </div>
   );
 };

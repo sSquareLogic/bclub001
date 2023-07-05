@@ -29,7 +29,6 @@ module.exports = {
         ONE: "repeat(1, 1fr)",
         TWO: "repeat(2, 1fr)",
         THREE: "repeat(3, 1fr)",
-        ENROL: "48% 52%",
         HERO: "minmax(0px, 740px) minmax(0px, 600px)",
       },
       fontSize: {
