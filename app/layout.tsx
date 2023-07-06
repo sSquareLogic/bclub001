@@ -1,3 +1,4 @@
+import ScrollProgress from "@/hox/ScrollProgress";
 import "./globals.css";
 
 export const metadata = {
@@ -12,7 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-black">{children}</body>
+      <body className="bg-black">
+        <ScrollProgress>{children}</ScrollProgress>
+      </body>
     </html>
   );
 }
