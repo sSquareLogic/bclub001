@@ -1,5 +1,4 @@
 "use client";
-import AnimateInView from "@/hox/AnimateInView";
 import Container from "../Container";
 import HeroBg from "./HeroBg";
 import HeroImg from "./HeroImg";
@@ -17,13 +16,8 @@ const Hero = () => {
       >
         <Logo />
 
-        <AnimateInView type="toTopOpacity" margin="0%">
-          <HeroText />
-        </AnimateInView>
-
-        <AnimateInView type="toBottomOpacity" margin="0%">
-          <HeroImg />
-        </AnimateInView>
+        <HeroText />
+        <HeroImg />
       </Container>
       <HeroBg />
     </section>
