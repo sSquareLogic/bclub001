@@ -32,7 +32,7 @@ const Description = () => {
         {enrol.text.map((item) => (
           <p
             dangerouslySetInnerHTML={{ __html: item }}
-            className="text-white text-[24px] font-semibold transition-all max-lg:text-center"
+            className="text-white text-[24px] font-semibold leading-7 transition-all max-lg:text-center"
             key={v4()}
           ></p>
         ))}
