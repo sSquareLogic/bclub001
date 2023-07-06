@@ -1,7 +1,7 @@
 export default {
   title: "¿Que es Force Academy™?",
   buttonText: "obtén más información",
-  buttonHref: "/",
+  buttonHref: "#enrol",
   logo: "/assets/images/about.svg",
   list: [
     '<span class="uppercase text-white">Force academy™</span> <br/> Es la formación más completa para capacitarte como un barbero de <strong class="text-GOLD">élite</strong>.',

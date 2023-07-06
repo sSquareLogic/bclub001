@@ -1,3 +1,5 @@
+import personalData from "./personal.data";
+
 export default {
   title: "Preguntas frequentes",
   list: [
@@ -23,7 +25,7 @@ export default {
     },
     {
       title: "Puedo pagar financiado?",
-      text: "Si contacta con nuestro equipo para hacer tu financiación personal @correo y +34",
+      text: `Si contacta con nuestro equipo para hacer tu financiación personal <a href='mailto:${personalData.email}'><strong class='text-white'>${personalData.email}</strong></a> y <a href='https://wa.me/${personalData.phoneNumber}'>${personalData.phoneNumber}</a>`,
     },
     {
       title: "Obtengo un certificado?",

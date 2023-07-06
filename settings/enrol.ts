@@ -1,3 +1,5 @@
+import personalData from "./personal.data";
+
 export default {
   title: "INSCRIBETE a la formación HOY.",
   text: [
@@ -11,14 +13,15 @@ export default {
     price: "495€ Precio de inscripción",
     totalPrice: "Con un precio total de 3950€",
     list: [
-      "Financiación diponible hasta en 5 cuotas de 691€",
-      "Te ofrecemos una financiación en 5 cuotas de 691€",
-      "Te ofrecemos una financiación en 5 cuotas de 691€",
-      "Te ofrecemos una financiación en 5 cuotas de 691€",
-      "Te ofrecemos una financiación en 5 cuotas de 691€",
+      "Financiación disponible",
+      "Diploma certificado",
+      "Prácticas en ForceBaberVip – Marbella",
+      "Curso intensivo para todas las edades +16",
+      "Sin experiencia previa",
+      "Grupos de mañana y tarde",
+      "Kit profesional personal para cada alumno",
     ],
     buttonText: "inscríbete ya",
-
-    buttonHref: "/",
+    buttonHref: `https://wa.me/${personalData.phoneNumber}`,
   },
 };

@@ -12,7 +12,10 @@ const Description = () => {
     sm: useMediaQuery("(max-width: 640px)"),
   };
   return (
-    <div className="enrol-description flex flex-col gap-12 justify-center transition-all max-sm:gap-5">
+    <div
+      className="enrol-description flex flex-col gap-12 justify-center transition-all max-sm:gap-5"
+      id="enrol"
+    >
       <GradientTitle
         text={enrol.title}
         align={!breakPoints.lg ? "left" : "center"}
