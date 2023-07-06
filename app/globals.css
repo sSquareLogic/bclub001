@@ -23,6 +23,7 @@ strong {
 }
 
 .container {
+  overflow-x: hidden;
   margin: 0 auto;
   padding: 0 30px;
   max-width: 1400px;
@@ -30,6 +31,7 @@ strong {
 }
 
 .container-small {
+  overflow-x: hidden;
   margin: 0 auto;
   padding: 0 30px;
   max-width: 1160px;
@@ -37,6 +39,7 @@ strong {
 }
 
 .container-supersmall {
+  overflow-x: hidden;
   margin: 0 auto;
   padding: 0 30px;
   max-width: 1000px;
