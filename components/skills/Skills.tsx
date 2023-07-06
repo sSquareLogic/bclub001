@@ -3,6 +3,7 @@ import Container from "../Container";
 import skills from "@/settings/skills";
 import SkillCard from "./SkillCard";
 import { v4 } from "uuid";
+import AnimateInView from "@/hox/AnimateInView";
 
 const Skills = () => {
   return (
@@ -14,22 +15,28 @@ const Skills = () => {
             "linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5))",
         }}
       ></div>
-      <Container
-        className="flex flex-col gap-[50px] z-10 relative transition-all max-xl:gap-[45px] max-lg:gap-[40px] max-md:gap-[35px] max-sm:gap-[30px]"
-        isSmall
-      >
-        <h2 className="uppercase text-TITLE_LG text-center font-bold transition-all max-xl:text-[57px] max-lg:text-[50px] max-md:text-[43px] max-sm:text-[36px] max-sm:leading-[44px]">
-          {skills.title}
-        </h2>
-        {skills.items.map((item) => (
-          <SkillCard
-            image={item.image}
-            list={item.list}
-            title={item.title}
-            key={v4()}
-          />
-        ))}
-      </Container>
+      <AnimateInView type="toTopOpacity">
+        <Container
+          className="flex flex-col gap-[50px] z-10 relative transition-all max-xl:gap-[45px] max-lg:gap-[40px] max-md:gap-[35px] max-sm:gap-[30px]"
+          isSmall
+        >
+          <h2 className="uppercase text-TITLE_LG text-center font-bold transition-all max-xl:text-[57px] max-lg:text-[50px] max-md:text-[43px] max-sm:text-[36px] max-sm:leading-[44px]">
+            {skills.title}
+          </h2>
+          {skills.items.map((item, index) => (
+            <AnimateInView
+              key={v4()}
+              type={index % 2 === 0 ? "toLeftOpacity" : "toRightOpacity"}
+            >
+              <SkillCard
+                image={item.image}
+                list={item.list}
+                title={item.title}
+              />
+            </AnimateInView>
+          ))}
+        </Container>
+      </AnimateInView>
     </section>
   );
 };

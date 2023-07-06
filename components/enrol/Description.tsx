@@ -3,6 +3,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import enrol from "@/settings/enrol";
 import GradientTitle from "../GradientTitle";
 import { v4 } from "uuid";
+import AnimateInView from "@/hox/AnimateInView";
 
 const Description = () => {
   const breakPoints = {
@@ -34,9 +35,9 @@ const Description = () => {
       <div className="flex flex-col gap-8">
         {enrol.text.map((item) => (
           <p
+            key={v4()}
             dangerouslySetInnerHTML={{ __html: item }}
             className="text-white text-[24px] font-semibold leading-7 transition-all max-lg:text-center"
-            key={v4()}
           ></p>
         ))}
       </div>

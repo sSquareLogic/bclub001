@@ -3,6 +3,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import Container from "../Container";
 import AboutContent from "./AboutContent";
 import AboutLogo from "./AboutLogo";
+import AnimateInView from "@/hox/AnimateInView";
 
 const About = () => {
   const breakpoint = useMediaQuery("(max-width: 900px)");
@@ -12,8 +13,13 @@ const About = () => {
         className="grid grid-cols-TWO content-center gap-9 transition-all max-[900px]:grid-cols-ONE"
         height={!breakpoint ? "992px" : "auto"}
       >
-        <AboutContent />
-        <AboutLogo />
+        <AnimateInView type="toRightOpacity">
+          <AboutContent />
+        </AnimateInView>
+
+        <AnimateInView type="toLeftOpacity">
+          <AboutLogo />
+        </AnimateInView>
       </Container>
     </section>
   );

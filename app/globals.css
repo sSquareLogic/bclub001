@@ -10,6 +10,10 @@
   letter-spacing: -1px;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 strong {
   font-size: unset !important;
 }

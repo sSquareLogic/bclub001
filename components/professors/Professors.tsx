@@ -5,6 +5,7 @@ import GradientTitle from "../GradientTitle";
 import ProfessorsCard from "./ProfessorsCard";
 import { v4 } from "uuid";
 import useMediaQuery from "@mui/material/useMediaQuery";
+import AnimateInView from "@/hox/AnimateInView";
 
 const Professors = () => {
   const breakPoints = {
@@ -36,14 +37,20 @@ const Professors = () => {
           align="center"
         />
         <div className="grid grid-cols-THREE gap-10 transition-all max-[900px]:grid-cols-ONE max-[900px]:px-[15%] max-[500px]:px-[35px]">
-          {professors.map((professor) => (
-            <ProfessorsCard
-              description={professor.description}
-              image={professor.image}
-              name={professor.name}
-              position={!breakPoints[900] ? professor.position : undefined}
+          {professors.map((professor, index) => (
+            <AnimateInView
               key={v4()}
-            />
+              type={index % 2 === 0 ? "toTopOpacity" : "toBottomOpacity"}
+              delay={`${100 + 50 * (index + 1)}`}
+              margin="0%"
+            >
+              <ProfessorsCard
+                description={professor.description}
+                image={professor.image}
+                name={professor.name}
+                position={!breakPoints[900] ? professor.position : undefined}
+              />
+            </AnimateInView>
           ))}
         </div>
       </Container>
