@@ -2,7 +2,7 @@ const HeroBg = () => {
   return (
     <div className="hero-bg absolute top-0 left-0 h-full w-full bg-HERO_TOP pointer-events-none">
       <div
-        className="relative -z-20 h-[800px] w-full"
+        className="relative -z-20 h-[800px] w-full transition-all max-[900px]:h-full"
         style={{
           background: "url(/assets/images/hero-bg.png) center",
         }}
