@@ -25,7 +25,7 @@ const ProfessorsCard = ({ description, image, name, position }: IProps) => {
         width={330}
         className="h-[520px] w-full object-contain transition-all max-xl:h-auto"
       />
-      <div className="absolute top-[60%] left-0 pt-4 border-t-2 border-solid border-GOLD flex flex-col gap-1 mx-6 transition-all max-xl:top-[55%] max-[900px]:top-[80%] max-md:top-[70%] max-[500px]:top-[60%]">
+      <div className="absolute top-[60%] left-0 pt-4 border-t-2 border-solid border-GOLD flex flex-col gap-1 mx-6 transition-all max-xl:top-[55%] max-[900px]:top-[80%] max-md:top-[70%] max-[500px]:top-[50%]">
         <h6 className="text-white text-TEXT font-bold uppercase transition-all max-xl:text-TEXT_SM max-[900px]:text-TEXT max-[900px]:text-white">
           {name}
         </h6>
