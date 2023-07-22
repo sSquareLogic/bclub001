@@ -1,4 +1,4 @@
-# FORCE ACADEMY™
+# bclub001
 
 ## [**VISIT**](https://forcebarberclub.vercel.app/)
 
@@ -27,6 +27,7 @@
 
 ## In case some serious changes need to be done
 
-- [**EMAIL ME**](mailto:mr.aydogdy02@gmail.com)
+- [**EMAIL ME**](mailto:duggthevicious@gmail.com)
 - [**DM ME**](https://www.instagram.com/duggthevicious)
+- [**Twitter**](https://twitter.com/duggthevicious)
 - [**GitHub**](https://github.com/VividTruthKeeper)
