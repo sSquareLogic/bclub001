@@ -8,6 +8,9 @@ const animations: Record<Animations, Variants> = {
     },
     inView: {
       opacity: 1,
+      transition: {
+        duration: 0.6,
+      },
     },
   },
   toTop: {
@@ -16,6 +19,9 @@ const animations: Record<Animations, Variants> = {
     },
     inView: {
       y: "0px",
+      transition: {
+        duration: 0.6,
+      },
     },
   },
   toBottom: {
@@ -24,6 +30,9 @@ const animations: Record<Animations, Variants> = {
     },
     inView: {
       y: "0px",
+      transition: {
+        duration: 0.6,
+      },
     },
   },
   toLeft: {
@@ -32,6 +41,9 @@ const animations: Record<Animations, Variants> = {
     },
     inView: {
       x: "0px",
+      transition: {
+        duration: 0.6,
+      },
     },
   },
   toRight: {
@@ -40,6 +52,9 @@ const animations: Record<Animations, Variants> = {
     },
     inView: {
       x: "0px",
+      transition: {
+        duration: 0.6,
+      },
     },
   },
   toTopOpacity: {
@@ -50,6 +65,9 @@ const animations: Record<Animations, Variants> = {
     inView: {
       opacity: 1,
       y: "0px",
+      transition: {
+        duration: 0.6,
+      },
     },
   },
   toBottomOpacity: {
@@ -60,6 +78,9 @@ const animations: Record<Animations, Variants> = {
     inView: {
       opacity: 1,
       y: "0px",
+      transition: {
+        duration: 0.6,
+      },
     },
   },
   toLeftOpacity: {
@@ -67,14 +88,26 @@ const animations: Record<Animations, Variants> = {
       opacity: 0,
       x: "-60px",
     },
-    inView: { opacity: 1, x: "0px" },
+    inView: {
+      opacity: 1,
+      x: "0px",
+      transition: {
+        duration: 0.6,
+      },
+    },
   },
   toRightOpacity: {
     initial: {
       opacity: 0,
       x: "60px",
     },
-    inView: { opacity: 1, x: "0px" },
+    inView: {
+      opacity: 1,
+      x: "0px",
+      transition: {
+        duration: 0.6,
+      },
+    },
   },
 };
 
